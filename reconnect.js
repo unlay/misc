@@ -17,7 +17,7 @@ function ip() {
     var http = new XMLHttpRequest();
     http.open('GET', 'https://ipaddress.sh/', !1);
     http.send();
-    return http.responseText.includes('80.112.181.102')
+    return http.responseText.includes('181.102')
 }
 
 setInterval(async()=>{
