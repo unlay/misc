@@ -389,7 +389,7 @@ var name = [getName(true), getName(false)];
 var randomDay = (parseInt(Math.random() * (28 - 1) + 1)).toString();
 var randomMonth = parseInt(Math.random() * (12 - 1) + 1);
 var randomYear = parseInt(Math.random() * (1970 - 2003) + 2003);
-var password = "zVXHTppvm2v2ppH"
+var password = "123"
 var email = name.replace(',', '') + '_' + randomYear + '@' + domain;
 
 var displayname = name.replace(',', ' ')
